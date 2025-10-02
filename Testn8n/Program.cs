@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string NAME = "n8n";
+string userName = "n8n";
 
-Console.WriteLine($"Hello, {NAME}!");
+Console.WriteLine($"Hello, {userName}!");
