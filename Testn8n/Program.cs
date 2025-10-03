@@ -11,6 +11,9 @@ if (int.TryParse(a, out int num1) && int.TryParse(b, out int num2))
 {
     int sum = Testn8n.Math.Add(num1, num2);
     Console.WriteLine($"The sum of {num1} and {num2} is {sum}.");
+
+    int subtract = Testn8n.Math.Subtract(num1, num2);
+    Console.WriteLine($"The subtract of {num1} and {num2} is {sum}.");
 }
 else
 {
